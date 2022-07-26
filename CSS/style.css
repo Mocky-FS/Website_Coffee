@@ -44,11 +44,24 @@ a {
   border-radius: 30px;
   font-weight: 700;
   font-size: 14px;
+  border: 0;
+  cursor: pointer;
 }
 
 .btn-primary {
   background: white;
   color: #222;
+}
+
+.btn-dark {
+  background: #222;
+  color: white;
+}
+
+.btn-dark:hover {
+  background: white;
+  color: #222;
+  border: 1px solid #222;
 }
 
 .btn-primary:hover {
@@ -65,6 +78,33 @@ a {
 .my-10 {
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+.my-20 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.underline {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.chip {
+  display: inline-block;
+  text-align: center;
+  width: 25px;
+  border-radius: 100%;
+  background: #333;
+  color: white;
+}
+
+.chip-purple {
+  background: #be418c;
+}
+
+.chip-brown {
+  background: #8c5e24;
 }
 /* HEADER */
 
@@ -145,4 +185,82 @@ a {
 .feature {
   float: left;
   width: 50%;
+}
+
+/* person */
+
+.person {
+  height: 400px;
+  background: url(../img/cafe3.jpg) center center;
+  background-size: cover;
+}
+
+/* reservation */
+
+.reservation {
+  padding: 100px 0 100px 0;
+  text-align: center;
+}
+
+/* footer */
+
+footer {
+  background: #222;
+  color: white;
+  padding: 30px 0 30px 0;
+  text-align: center;
+}
+
+footer p {
+  margin-bottom: 0;
+}
+
+/* where */
+
+.where {
+  padding: 180px 0 100px 0;
+  overflow: auto;
+  min-height: 100vh;
+}
+
+.where-img {
+  float: left;
+  width: 45%;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.where-text {
+  float: right;
+  width: 50%;
+}
+
+/* contact */
+
+.contact {
+  padding: 180px 0 100px 0;
+  min-height: 100vh;
+}
+
+.contact-form-container {
+  max-width: 600px;
+  margin: auto;
+}
+
+.contact-form-container form label {
+  display: block;
+  font-weight: 700;
+}
+
+.contact-form-container form input,
+textarea {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+}
+
+.contact-form-container form textarea {
+  min-height: 80px;
 }
