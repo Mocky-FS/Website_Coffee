@@ -8,8 +8,141 @@
 
 /* General */
 
+html,
+body {
+  font-family: "Cinzel", serif;
+  font-family: "Pacifico", cursive;
+  font-family: "Poppins", sans-serif;
+  color: #444;
+}
+
 h1,
 h2,
 h3 {
   margin-bottom: 20px;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+a {
+  color: #222;
+  text-decoration: none;
+}
+
+.separator {
+  margin: 20px auto;
+  height: 10px;
+  width: 100px;
+  background-color: #111;
+}
+
+.btn {
+  display: inline-block;
+  padding: 15px 25px;
+  border-radius: 30px;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.btn-primary {
+  background: white;
+  color: #222;
+}
+
+.btn-primary:hover {
+  background: #222;
+  color: white;
+}
+
+.container {
+  max-width: 1000px;
+  display: block;
+  margin: auto;
+}
+
+.my-10 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+/* HEADER */
+
+.header {
+  background: #333;
+  overflow: auto;
+  line-height: 1.7em;
+}
+
+.header nav h1 {
+  float: left;
+  padding: 20px;
+  margin-bottom: 0;
+}
+
+.header nav h1 a {
+  color: white;
+}
+
+.header nav ul {
+  float: right;
+  list-style: none;
+}
+
+.header nav ul li {
+  float: left;
+}
+
+.header nav ul li a {
+  color: white;
+  padding: 20px;
+  display: block;
+}
+
+.header nav ul li a:hover {
+  background: #444;
+}
+
+.active {
+  background: #444;
+}
+
+/* vp */
+
+.vp {
+  height: 700px;
+  background: url(../img/cafe1.jpg) center center;
+  background-size: cover;
+  text-align: center;
+}
+
+.vp-content {
+  max-width: 600px;
+  padding-top: 150px;
+  color: white;
+  display: block;
+  margin: auto;
+}
+
+.vp-content h1 {
+  font-size: 50px;
+}
+
+.vp-content p {
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  line-height: 1.9em;
+}
+
+/* Features */
+
+.features {
+  overflow: auto;
+  padding: 100px 0px 100px 0px;
+  text-align: center;
+}
+
+.feature {
+  float: left;
+  width: 50%;
 }
